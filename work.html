@@ -68,6 +68,29 @@ figure{max-width:100%}
 
 .nav>div{flex-wrap:wrap;justify-content:flex-end;row-gap:8px}.nav a{white-space:nowrap}.nav-cv{margin-left:6px}.nav a.nav-cv:hover{background:#121A2E;color:#8FE6DE}
 </style>
+<!-- Google Analytics (GA4) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R3PFKJ6G63"></script>
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());
+(function(){
+  var cfg={};
+  var ref=new URLSearchParams(location.search).get('ref');
+  if(ref){cfg.campaign_source=ref;cfg.campaign_medium='application';cfg.campaign_name='portfolio-link';}
+  gtag('config','G-R3PFKJ6G63',cfg);
+  document.addEventListener('click',function(e){
+    var a=e.target.closest&&e.target.closest('a[href]');if(!a)return;
+    var h=a.getAttribute('href'),t=(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,80),k=null;
+    if(/CV\.pdf$/i.test(h))k='cv_download';
+    else if(/^mailto:/i.test(h))k='email_click';
+    else if(/linkedin\.com/i.test(h))k='linkedin_click';
+    else if(/^#cs-|work\.html#cs-/i.test(h))k='case_study_click';
+    else if(/certificates\/|aicerts|peoplecert|udemy|canva\.com/i.test(h))k='certificate_click';
+    else if(/^(index|work|about|endorsements|certifications)\.html/i.test(h))k='nav_click';
+    if(k)gtag('event',k,{link_text:t,link_url:h,page_path:location.pathname});
+  },{capture:true});
+})();
+</script>
 </head>
 <body>
 <div class="page" style=" box-sizing: border-box; background: #0B1020; font-family: 'IBM Plex Sans', system-ui, sans-serif; color: #E8ECF2">
