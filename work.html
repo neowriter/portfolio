@@ -67,6 +67,8 @@ figure{max-width:100%}
 
 
 .nav>div{flex-wrap:wrap;justify-content:flex-end;row-gap:8px}.nav a{white-space:nowrap}.nav-cv{margin-left:6px}.nav a.nav-cv:hover{background:#121A2E;color:#8FE6DE}
+header:has(> nav.nav){position:sticky;top:0;z-index:50;background:#0B1020}[id]{scroll-margin-top:96px}html{scroll-behavior:smooth}
+@media (max-width:640px){nav.nav{flex-wrap:wrap!important;justify-content:flex-start!important;row-gap:8px!important;column-gap:16px;padding-top:10px!important;padding-bottom:10px!important}nav.nav>div{display:contents!important}nav.nav>div>span[aria-hidden]{display:none}nav.nav>div>a{font-size:14px;order:3}nav.nav>a:first-child{order:0}nav.nav a.nav-cv{order:1;margin-left:auto;font-size:13px}nav.nav::after{content:"";order:2;flex-basis:100%;height:0}[id]{scroll-margin-top:104px}}
 </style>
 <!-- Google Analytics (GA4) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-R3PFKJ6G63"></script>
