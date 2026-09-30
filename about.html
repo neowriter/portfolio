@@ -103,7 +103,7 @@ gtag('js',new Date());
     else if(/linkedin\.com/i.test(h))k='linkedin_click';
     else if(/^#cs-|work\.html#cs-/i.test(h))k='case_study_click';
     else if(/certificates\/|aicerts|peoplecert|udemy|canva\.com/i.test(h))k='certificate_click';
-    else if(/^(index|work|about|endorsements|certifications)\.html/i.test(h))k='nav_click';
+    else if(/^(index|work|about|endorsements|certifications|field-notes)\.html/i.test(h))k='nav_click';
     if(k)gtag('event',k,{link_text:t,link_url:h,page_path:location.pathname});
   },{capture:true});
 })();
@@ -119,7 +119,7 @@ gtag('js',new Date());
 <nav class="nav wrap" aria-label="Main" style=" height: 72px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between">
 <a href="index.html" style="font-family: 'Sora', sans-serif; font-weight: 700; font-size: 17px; color: #FFFFFF">Annamalai Muthiah</a>
 <div style="display: flex; align-items: center; gap: 14px; font-size: 15px">
-<a href="work.html">Work</a><span aria-hidden="true" style="color: #A6B0C3">·</span><a href="about.html" aria-current="page" style="color: #4FD1C5">About</a><span aria-hidden="true" style="color: #A6B0C3">·</span><a href="endorsements.html">Endorsements</a><span aria-hidden="true" style="color: #A6B0C3">·</span><a href="certifications.html">Certifications</a><a href="CV.pdf" target="_blank" rel="noopener noreferrer" aria-label="CV, PDF, opens in a new tab" class="nav-cv" style="padding: 4px 12px; border: 1px solid #4FD1C5; border-radius: 999px; color: #4FD1C5">CV (PDF)</a>
+<a href="work.html">Work</a><span aria-hidden="true" style="color: #A6B0C3">·</span><a href="about.html" aria-current="page" style="color: #4FD1C5">About</a><span aria-hidden="true" style="color: #A6B0C3">·</span><a href="endorsements.html">Endorsements</a><span aria-hidden="true" style="color: #A6B0C3">·</span><a href="certifications.html">Certifications</a><span aria-hidden="true" style="color: #A6B0C3">·</span><a href="field-notes.html">Field notes</a><a href="CV.pdf" target="_blank" rel="noopener noreferrer" aria-label="CV, PDF, opens in a new tab" class="nav-cv" style="padding: 4px 12px; border: 1px solid #4FD1C5; border-radius: 999px; color: #4FD1C5">CV (PDF)</a>
 </div>
 </nav>
 </header>
