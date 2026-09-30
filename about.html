@@ -75,6 +75,15 @@ header:has(> nav.nav){position:sticky;top:0;z-index:50;background:#0B1020}[id]{s
 .hw-l{margin:auto 0 0;font-size:14px}
 @media (max-width:1100px){.hw-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media (max-width:820px){.hw-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.hw-t:last-child{grid-column:1/-1}.hw-t{padding:18px 16px}.hw-s{font-size:44px}.hw-p{font-size:16px;margin:16px 0 14px}}
+.bt-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:48px;list-style:none;padding:0}
+.bt-c{display:flex;flex-direction:column;padding:56px 28px 28px;background:#121A2E;border:1px solid #22304F;border-radius:220px 220px 16px 16px;text-align:center}
+.bt-b{align-self:center;margin:0;padding:6px 14px;border-radius:999px;font-family:'IBM Plex Mono',monospace;font-size:11.5px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:#0B1020}
+.bt-h{margin:24px 0 0;font-family:'Sora',sans-serif;font-weight:700;font-size:26px;line-height:1.2;letter-spacing:-.02em;color:#FFFFFF}
+.bt-p{margin:14px 0 0;font-size:16px;line-height:1.6;color:#A6B0C3}
+.bt-now{margin-top:20px;padding:32px 36px;background:#F4F1EA;border-radius:16px;color:#0B1020;display:grid;grid-template-columns:auto 1fr;gap:12px 32px;align-items:start}
+.bt-now .bt-b{background:#0B1020;color:#F4F1EA;align-self:start}
+.bt-now p{margin:0}
+@media (max-width:820px){.bt-grid{grid-template-columns:1fr;gap:16px}.bt-c{padding:44px 22px 24px}.bt-now{grid-template-columns:1fr;padding:26px 22px}.bt-now .bt-b{justify-self:start}}
 </style>
 <!-- Google Analytics (GA4) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-R3PFKJ6G63"></script>
@@ -120,7 +129,8 @@ gtag('js',new Date());
 <section style="padding: 120px 0 80px">
 <p class="lbl">About · 2018–2026</p>
 <h1 style="margin: 24px 0 0; max-width: 1150px; font-family: 'Sora', sans-serif; font-weight: 800; font-size: clamp(36px, 5vw, 72px); line-height: 0.98; letter-spacing: -0.045em; color: #FFFFFF">From technical writer to running <span style="color: #4FD1C5">two departments</span></h1>
-<p class="lead" style="margin-top: 40px; max-width: 760px">I joined Presight (a G42 company) in 2018 as a Senior Technical Writer. Eight years later I run Documentation and Training inside a CXO-sponsored business unit, with a team of writers and trainers and a service catalog we sell to government and enterprise clients. The path between those two points is the actual case study.</p>
+<p class="lead" style="margin-top: 40px; max-width: 760px">For more than two decades, I've worked where products, people, and information collide. I've written the documentation, shaped the content, built the training, mapped the process, and asked the awkward question everyone else quietly stepped around: <strong style="color: #FFFFFF">Will anyone actually understand this?</strong></p>
+<p class="lead" style="margin-top: 20px; max-width: 760px">The job title changes. The work underneath does not: remove friction, create trust, and help people move. At Presight (a G42 company), that took me from Senior Technical Writer in 2018 to running Documentation and Training eight years later.</p>
 </section>
 
 <!-- Timeline -->
@@ -195,7 +205,7 @@ gtag('js',new Date());
 <section id="how-i-work" aria-labelledby="h-how" style="margin-top: 160px">
 <p class="lbl">Principles</p>
 <h2 id="h-how" style="margin: 20px 0 0; font-family: 'Sora', sans-serif; font-weight: 800; font-size: clamp(32px, 4.4vw, 64px); line-height: 0.98; letter-spacing: -0.045em; color: #FFFFFF">How I work</h2>
-<p class="lead" style="margin-top: 28px; max-width: 760px">Five principles, each backed by work on this site.</p>
+<p class="lead" style="margin-top: 28px; max-width: 760px"><strong style="color: #FFFFFF">Clarity is not decoration. It is infrastructure.</strong> Five principles, each backed by work on this site.</p>
 <ol class="hw-grid" style="list-style: none; padding: 0">
 <li class="hw-t"><p class="hw-s">200+</p><p class="hw-c">people adopted</p><h3 class="hw-p">Standards only stick when someone owns the adoption.</h3><p class="hw-l"><a href="work.html#cs-02">Case study 2</a> · <a href="work.html#cs-05">5 →</a></p></li>
 <li class="hw-t"><p class="hw-s">100%</p><p class="hw-c">human first drafts</p><h3 class="hw-p">Humans write the first draft. AI checks it.</h3><p class="hw-l"><a href="work.html#cs-03">Case study 3 →</a></p></li>
@@ -203,6 +213,26 @@ gtag('js',new Date());
 <li class="hw-t"><p class="hw-s">7</p><p class="hw-c">bundles, 30+ services</p><h3 class="hw-p">Sell outcomes, not hours.</h3><p class="hw-l"><a href="work.html#cs-01">Case study 1 →</a></p></li>
 <li class="hw-t"><p class="hw-s">1</p><p class="hw-c">source, two formats</p><h3 class="hw-p">Documentation and training are the same knowledge in two formats.</h3><p class="hw-l"><a href="work.html#cs-01">Case study 1 →</a></p></li>
 </ol>
+</section>
+
+<!-- Beyond the brief -->
+<section id="beyond" aria-labelledby="h-beyond" style="margin-top: 160px">
+<p class="lbl">Beyond the brief</p>
+<h2 id="h-beyond" style="margin: 20px 0 0; font-family: 'Sora', sans-serif; font-weight: 800; font-size: clamp(32px, 4.4vw, 64px); line-height: 0.98; letter-spacing: -0.045em; color: #FFFFFF">The other tabs in my brain.</h2>
+<p class="lead" style="margin-top: 28px; max-width: 760px">Because a person is more interesting than a list of competencies, and curiosity has never respected job descriptions.</p>
+<ul class="bt-grid">
+<li class="bt-c"><p class="bt-b" style="background: #FF7A5C">Writing</p><h3 class="bt-h">Words left unsaid</h3><p class="bt-p">Short prose, poetry, and small observations about memory, love, grief, and the things language almost catches.</p></li>
+<li class="bt-c"><p class="bt-b" style="background: #F6D776">Photography · travel</p><h3 class="bt-h">A visual journal</h3><p class="bt-p">Street corners, cups of coffee, changing light, and the accidental theater of travel, from Chennai to Abu Dhabi and elsewhere.</p></li>
+<li class="bt-c"><p class="bt-b" style="background: #8CC8F2">AI · creative technology</p><h3 class="bt-h">Tools worth learning</h3><p class="bt-p">Hands-on experiments with AI, video, design, and knowledge tools, always asking what they help people do better.</p></li>
+</ul>
+<div class="bt-now">
+<p class="bt-b">Now</p>
+<div>
+<p style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: #4A5570">Currently making space for</p>
+<p style="margin-top: 10px; font-family: 'Sora', sans-serif; font-weight: 700; font-size: clamp(20px, 2.2vw, 28px); line-height: 1.3; letter-spacing: -0.02em">Better systems. Braver writing. More photographs. Fewer unnecessary trackers.</p>
+<p style="margin-top: 16px; font-size: 16px; line-height: 1.6; color: #3A4460"><strong>Currently curious about:</strong> AI-assisted operations · useful automation · visual storytelling · the future of work</p>
+</div>
+</div>
 </section>
 
 <!-- Education -->
@@ -219,7 +249,9 @@ gtag('js',new Date());
 <!-- Contact -->
 <section aria-labelledby="h-contact" style="margin-top: 120px; padding: 48px 0 120px; border-top: 1px solid #22304F">
 <h2 id="h-contact" class="lbl">Contact</h2>
-<a href="#" data-em="annamalai21m|gmail.com" style="display: inline-block; margin-top: 20px; font-family: 'Sora', sans-serif; font-weight: 600; font-size: clamp(20px, 2vw, 24px); line-height: 1.3; letter-spacing: -0.01em; color: #FFFFFF; text-decoration-color: #4FD1C5">annamalai21m [at] gmail.com</a>
+<p style="margin: 20px 0 0; font-family: 'Sora', sans-serif; font-weight: 800; font-size: clamp(30px, 3.6vw, 48px); line-height: 1.05; letter-spacing: -0.04em; color: #FFFFFF">Have a complicated thing?</p>
+<p style="margin: 12px 0 0; font-family: 'Sora', sans-serif; font-style: italic; font-weight: 400; font-size: clamp(18px, 1.8vw, 22px); line-height: 1.4; color: #4FD1C5">Let's make it clear, and maybe a little beautiful.</p>
+<a href="#" data-em="annamalai21m|gmail.com" style="display: inline-block; margin-top: 28px; font-family: 'Sora', sans-serif; font-weight: 600; font-size: clamp(20px, 2vw, 24px); line-height: 1.3; letter-spacing: -0.01em; color: #FFFFFF; text-decoration-color: #4FD1C5">annamalai21m [at] gmail.com</a>
 <p class="txt" style="margin-top: 20px; color: #A6B0C3"><a href="https://www.linkedin.com/in/annamalai-muthiah/" target="_blank" rel="noopener noreferrer">linkedin.com/in/annamalai-muthiah</a><span aria-hidden="true"> · </span>Abu Dhabi, United Arab Emirates</p>
 </section>
 </main>
