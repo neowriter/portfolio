@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<title>A trainer’s field notes</title>
+<title>Field notes of a writer and trainer</title>
 <link>https://neowriter.github.io/portfolio/field-notes.html</link>
 <atom:link href="https://neowriter.github.io/portfolio/field-notes/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Short pieces on training, writing and AI adoption by Annamalai Muthiah.</description>
