@@ -6,7 +6,15 @@
 <atom:link href="https://neowriter.github.io/portfolio/field-notes/feed.xml" rel="self" type="application/rss+xml"/>
 <description>Short pieces on training, writing and AI adoption by Annamalai Muthiah.</description>
 <language>en-us</language>
-<lastBuildDate>Wed, 30 Sep 2026 09:00:00 +0000</lastBuildDate>
+<lastBuildDate>Tue, 06 Oct 2026 09:00:00 +0000</lastBuildDate>
+<item>
+<title>AI writes the first draft. Who writes the last one?</title>
+<link>https://neowriter.github.io/portfolio/field-notes/ai-writes-the-first-draft.html</link>
+<guid isPermaLink="true">https://neowriter.github.io/portfolio/field-notes/ai-writes-the-first-draft.html</guid>
+<pubDate>Tue, 06 Oct 2026 09:00:00 +0000</pubDate>
+<description>AI drafts are usually fine, and fine gets approved. The last draft is where someone close to the work checks what holds up, adds what’s missing and cuts the rest.</description>
+<content:encoded><![CDATA[<p><img src="https://neowriter.github.io/portfolio/notes/2026-10-06-ai-writes-the-first-draft.jpg" alt="Split slide. The top half is black: “AI writes the first draft.” repeated five times, fading from faint to bold cream, then “AI can generate the words.” A red line divides it from the cream bottom half, which reads: Last draft. Who writes the last one? The writer still decides: 01 what matters, 02 what’s missing, 03 what holds up, 04 what stays. The first draft is output. The last one takes judgment."></p><p>Most AI drafts I read these days are fine. Clean grammar, sensible structure, nothing embarrassing.</p><p>That’s the problem. Fine gets approved.</p><p>What’s usually missing is the context only someone close to the work knows. The process that changed last month. The customer who always misreads that one screen. The sentence that is technically true and still misleading.</p><p>Getting words on the page used to be the slow part. Now it takes seconds.</p><p>The valuable part is the last draft: checking what holds up, adding what’s missing, and cutting what doesn’t deserve to stay.</p><p>If your team uses AI to draft, good. Just be clear about who owns the last draft.</p><p>Who writes the final version on your team?</p>]]></content:encoded>
+</item>
 <item>
 <title>Useful metrics. Not the point.</title>
 <link>https://neowriter.github.io/portfolio/field-notes/useful-metrics-not-the-point.html</link>
